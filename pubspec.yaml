@@ -1,0 +1,59 @@
+name: expense_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  provider: ^6.1.2
+  fl_chart: ^0.70.2
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.8.0
+  percent_indicator: ^4.2.4
+  flutter_launcher_icons: ^0.13.1
+  rxdart: ^0.27.7
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  path_provider: ^2.1.5
+  awesome_notifications: ^0.10.1
+  timezone: ^0.10.0
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.12
+  image_picker: ^1.1.2
+  firebase_storage: ^12.4.4
+  flutter_slidable: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+
+flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true  # ✅ Correct Indentation
+
+  # Assets section
+  assets:
+    - assets/icon/app_icon.png
+    - assets/avatar_he.png
+    - assets/avatar_she.png
+
+  # Fonts can be added here
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont.ttf
